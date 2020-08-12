@@ -2,7 +2,7 @@
 function writeCards(names, event) {
   let greeting_array = [];
   for(let i = 0; i < names.length; i++) {
-    greeting = `Thank you, ${names[i]}, for the wonderful ${event} gift!`
+    let greeting = `Thank you, ${names[i]}, for the wonderful ${event} gift!`
     console.log(greeting)
     greeting_array.push(greeting)
   }
